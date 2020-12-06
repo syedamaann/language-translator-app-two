@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Translator</title>
     <link href="style.css" rel="stylesheet" />
+
 </head>
 <body>
     <nav class="navigation container">
@@ -12,7 +13,7 @@
             <a class="link" href="/"> FUN<strong>Translator</strong></a></div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link link-active" href="/">About Language</a>
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/projects.html">Translate</a>
@@ -21,25 +22,22 @@
     </nav>
     <header class="hero">
         <img class="hero-img" src="images/pic.svg" />
-        <h1 class="hero-heading"> Hey, I'm Translator!</h1> <h2 class="hero-heading"> You can use me to do
-            <span class="heading-inverted"> <strong> Funny Translations</strong> </span>, in your favourite cartoon languages ;)<span class="heading-inverted"></span> </h2>
+        <h1 class="hero-heading"> WELCOME! </h1> <h2 class="hero-heading"> This is your
+            <span class="heading-inverted"> <strong> Yoda Translator</strong> </span>, Have Fun ;)<span class="heading-inverted"></span> </h2>
     </header>
 
     <section class="section ow">
         <div class="container container-center">
-            <h1>Yoda Translator</h1>
-            <p>Use this translation tool to see how would <br> <strong> YODA </strong> sound if he was you!</p>
-        <br>
-        <a class="link link-primary" href="yoda.html">Try Yodish Now</a>
-        </div>
-    </section>
+            <h1>Convert your text</h1>
+            <textarea id="input-text"
+        placeholder="Type whatever you want to convert here!"></textarea>
+    <button id="translate-button">Translate</button>
+    <br>
+    <br>
 
-    <section class="section">
-        <div class="container container-center">
-            <h1>Pirate Speak Translator</h1>
-            <p> Try this to find out how would your everyday conversations would sound like in the <strong>Pirates</strong> language</p>
-          <br>
-            <a class="link link-primary" href="pirates.html">Try Pirates Now</a>
+    <div style="font-size: larger;"> Your text in Yoda is here 👇</div>
+    <div id="output-div"></div>
+    <script src="app.js" type="text/javascript"></script>
         </div>
     </section>
 
@@ -69,6 +67,5 @@
             
         </ul>
     </footer>
-
 </body>
 </html>
